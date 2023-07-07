@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Beer App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=Roboto+Slab:wght@400;700&family=Titan+One&display=swap"
+        rel="stylesheet">
+</head>
+
+<header>
+    <h1>TAP ROOM</h1>
+    <div class="logo-box"><img class="logo-image" src="./Images/logo.png" alt="logo"></div>
+    <ul class="header-info-list">
+        <li class="header-info-item">Godziny otwarcia</li>
+        <li class="header-info-item">Pon-pt: 9:00 - 18:00</li>
+        <li class="header-info-item">Sobota: 13:00 - 18:00</li>
+        <li class="header-info-item">Niedziela: 15:00 - 18:00</li>
+    </ul>
+</header>
+
+<body>
+    <section class="container">
+        <div class="beer-card">
+            <div>
+                <h2>KRAN 1</h2>
+            </div>
+
+            <img id="beer-1-image" class="beer-image" src="" alt="Beer label" />
+            <div class="beer-details">
+                <div class="beer-name"></div>
+                <div class="beer-style"></div>
+                <div class="beer-blg"></div>
+                <div class="beer-alcohol"></div>
+                <div class="beer-price"></div>
+                <div class="button-container">
+                    <button class="edit-button">Edit</button>
+                    <select class="select-images" id="beer-1-label" onchange="document.getElementById('beer-1-image').src = this.value;">
+                        <option value="./Images/aldona.png">Aldona</option>
+                        <option value="./Images/aledzwiedz.png">AleDźwiedź</option>
+                        <option value="./Images/babcia.png">Babcia Rózia</option>
+                        <option value="./Images/dobre.png">Dobre To To 2</option>
+                        <option value="./Images/ela.png">Ela Under My Umbrella</option>
+                        <option value="./Images/Grupa.png">Grupa wzajemnej adoracji</option>
+                        <option value="./Images/Kazimierz orange.png">Kazimierz</option>
+                        <option value="./Images/ksiazka.png">Książka była lepsza</option>
+                        <option value="./Images/latajacy.png">Latający Jeleń</option>
+                        <option value="./Images/kwasimierz.png">Kwasimierz</option>
+                        <option value="./Images/Mangol.png">Mangol</option>
+                        <option value="./Images/sherman.png">Mr. Sherman</option>
+                        <option value="./Images/normalne.png">Normalne</option>
+                        <option value="./Images/Pilsiwko.png">Pilsiwko</option>
+                        <option value="./Images/spichlerz.png">Spichlerz</option>
+                        <option value="./Images/stout.png">Stout this out</option>
+                        <option value="./Images/zerro.png">Zerro</option>
+                        <option value="./Images/Zytko.png">Żytko</option>
+                        <option value="./Images/logo.png">Logo</option>
+                        </select>
+                </div>
+            </div>
+        </div>
+        <div class="beer-card">
+            <div>
+                <h2>KRAN 2</h2>
+            </div>
+
+            <img id="beer-2-image" class="beer-image" src="" alt="Beer label" />
+            <div class="beer-details">
+                <div class="beer-name"></div>
+                <div class="beer-style"></div>
+                <div class="beer-blg"></div>
+                <div class="beer-alcohol"></div>
+                <div class="beer-price"></div>
+                <div class="button-container">
+                    <button class="edit-button">Edit</button>
+                    <select class="select-images" id="beer-2-label" onchange="document.getElementById('beer-2-image').src = this.value;">
+                        <option value="./Images/aldona.png">Aldona</option>
+                        <option value="./Images/aledzwiedz.png">AleDźwiedź</option>
+                        <option value="./Images/babcia.png">Babcia Rózia</option>
+                        <option value="./Images/dobre.png">Dobre To To 2</option>
+                        <option value="./Images/ela.png">Ela Under My Umbrella</option>
+                        <option value="./Images/Grupa.png">Grupa wzajemnej adoracji</option>
+                        <option value="./Images/Kazimierz orange.png">Kazimierz</option>
+                        <option value="./Images/ksiazka.png">Książka była lepsza</option>
+                        <option value="./Images/latajacy.png">Latający Jeleń</option>
+                        <option value="./Images/kwasimierz.png">Kwasimierz</option>
+                        <option value="./Images/Mangol.png">Mangol</option>
+                        <option value="./Images/sherman.png">Mr. Sherman</option>
+                        <option value="./Images/normalne.png">Normalne</option>
+                        <option value="./Images/Pilsiwko.png">Pilsiwko</option>
+                        <option value="./Images/spichlerz.png">Spichlerz</option>
+                        <option value="./Images/stout.png">Stout this out</option>
+                        <option value="./Images/zerro.png">Zerro</option>
+                        <option value="./Images/Zytko.png">Żytko</option>
+                        <option value="./Images/logo.png">Logo</option>
+                        </select>
+                        </div>
+            </div>
+        </div>
+        <div class="beer-card">
+            <div>
+                <h2>KRAN 3</h2>
+            </div>
+
+            <img id="beer-3-image" class="beer-image" src="" alt="Beer label" />
+            <div class="beer-details">
+                <div class="beer-name"></div>
+                <div class="beer-style"></div>
+                <div class="beer-blg"></div>
+                <div class="beer-alcohol"></div>
+                <div class="beer-price"></div>
+                <div class="button-container">
+                    <button class="edit-button">Edit</button>
+                    <select class="select-images" id="beer-3-label" onchange="document.getElementById('beer-3-image').src = this.value;">
+                        <option value="./Images/aldona.png">Aldona</option>
+                        <option value="./Images/aledzwiedz.png">AleDźwiedź</option>
+                        <option value="./Images/babcia.png">Babcia Rózia</option>
+                        <option value="./Images/dobre.png">Dobre To To 2</option>
+                        <option value="./Images/ela.png">Ela Under My Umbrella</option>
+                        <option value="./Images/Grupa.png">Grupa wzajemnej adoracji</option>
+                        <option value="./Images/Kazimierz orange.png">Kazimierz</option>
+                        <option value="./Images/ksiazka.png">Książka była lepsza</option>
+                        <option value="./Images/latajacy.png">Latający Jeleń</option>
+                        <option value="./Images/kwasimierz.png">Kwasimierz</option>
+                        <option value="./Images/Mangol.png">Mangol</option>
+                        <option value="./Images/sherman.png">Mr. Sherman</option>
+                        <option value="./Images/normalne.png">Normalne</option>
+                        <option value="./Images/Pilsiwko.png">Pilsiwko</option>
+                        <option value="./Images/spichlerz.png">Spichlerz</option>
+                        <option value="./Images/stout.png">Stout this out</option>
+                        <option value="./Images/zerro.png">Zerro</option>
+                        <option value="./Images/Zytko.png">Żytko</option>
+                        <option value="./Images/logo.png">Logo</option>
+                        </select>
+                </div>
+            </div>
+        </div>
+        <div class="beer-card">
+            <div>
+                <h2>KRAN 4</h2>
+            </div>
+
+            <img id="beer-4-image" class="beer-image" src="" alt="Beer label" />
+            <div class="beer-details">
+                <div class="beer-name"></div>
+                <div class="beer-style"></div>
+                <div class="beer-blg"></div>
+                <div class="beer-alcohol"></div>
+                <div class="beer-price"></div>
+                <div class="button-container">
+                    <button class="edit-button">Edit</button>
+                    <select class="select-images" id="beer-4-label" onchange="document.getElementById('beer-4-image').src = this.value;">
+                        <option value="./Images/aldona.png">Aldona</option>
+                        <option value="./Images/aledzwiedz.png">AleDźwiedź</option>
+                        <option value="./Images/babcia.png">Babcia Rózia</option>
+                        <option value="./Images/dobre.png">Dobre To To 2</option>
+                        <option value="./Images/ela.png">Ela Under My Umbrella</option>
+                        <option value="./Images/Grupa.png">Grupa wzajemnej adoracji</option>
+                        <option value="./Images/Kazimierz orange.png">Kazimierz</option>
+                        <option value="./Images/ksiazka.png">Książka była lepsza</option>
+                        <option value="./Images/latajacy.png">Latający Jeleń</option>
+                        <option value="./Images/kwasimierz.png">Kwasimierz</option>
+                        <option value="./Images/Mangol.png">Mangol</option>
+                        <option value="./Images/sherman.png">Mr. Sherman</option>
+                        <option value="./Images/normalne.png">Normalne</option>
+                        <option value="./Images/Pilsiwko.png">Pilsiwko</option>
+                        <option value="./Images/spichlerz.png">Spichlerz</option>
+                        <option value="./Images/stout.png">Stout this out</option>
+                        <option value="./Images/zerro.png">Zerro</option>
+                        <option value="./Images/Zytko.png">Żytko</option>
+                        <option value="./Images/logo.png">Logo</option>
+                        </select>
+                </div>
+            </div>
+        </div>
+        <div class="beer-card">
+            <div>
+                <h2>KRAN 5</h2>
+            </div>
+
+            <img id="beer-5-image" class="beer-image" src="" alt="Beer label" />
+            <div class="beer-details">
+                <div class="beer-name"></div>
+                <div class="beer-style"></div>
+                <div class="beer-blg"></div>
+                <div class="beer-alcohol"></div>
+                <div class="beer-price"></div>
+                <div class="button-container">
+                    <button class="edit-button">Edit</button>
+                    <select class="select-images" id="beer-5-label" onchange="document.getElementById('beer-5-image').src = this.value;">
+                        <option value="./Images/aldona.png">Aldona</option>
+                        <option value="./Images/aledzwiedz.png">AleDźwiedź</option>
+                        <option value="./Images/babcia.png">Babcia Rózia</option>
+                        <option value="./Images/dobre.png">Dobre To To 2</option>
+                        <option value="./Images/ela.png">Ela Under My Umbrella</option>
+                        <option value="./Images/Grupa.png">Grupa wzajemnej adoracji</option>
+                        <option value="./Images/Kazimierz orange.png">Kazimierz</option>
+                        <option value="./Images/ksiazka.png">Książka była lepsza</option>
+                        <option value="./Images/latajacy.png">Latający Jeleń</option>
+                        <option value="./Images/kwasimierz.png">Kwasimierz</option>
+                        <option value="./Images/Mangol.png">Mangol</option>
+                        <option value="./Images/sherman.png">Mr. Sherman</option>
+                        <option value="./Images/normalne.png">Normalne</option>
+                        <option value="./Images/Pilsiwko.png">Pilsiwko</option>
+                        <option value="./Images/spichlerz.png">Spichlerz</option>
+                        <option value="./Images/stout.png">Stout this out</option>
+                        <option value="./Images/zerro.png">Zerro</option>
+                        <option value="./Images/Zytko.png">Żytko</option>
+                        <option value="./Images/logo.png">Logo</option>
+                        </select>
+                </div>
+            </div>
+        </div>
+        <div class="beer-card">
+            <div>
+                <h2>KRAN 6</h2>
+            </div>
+
+            <img id="beer-6-image" class="beer-image" src="" alt="Beer label" />
+            <div class="beer-details">
+                <div class="beer-name"></div>
+                <div class="beer-style"></div>
+                <div class="beer-blg"></div>
+                <div class="beer-alcohol"></div>
+                <div class="beer-price"></div>
+                <div class="button-container">
+                    <button class="edit-button">Edit</button>
+                    <select class="select-images" id="beer-6-label" onchange="document.getElementById('beer-6-image').src = this.value;">
+                        <option value="./Images/aldona.png">Aldona</option>
+                        <option value="./Images/aledzwiedz.png">AleDźwiedź</option>
+                        <option value="./Images/babcia.png">Babcia Rózia</option>
+                        <option value="./Images/dobre.png">Dobre To To 2</option>
+                        <option value="./Images/ela.png">Ela Under My Umbrella</option>
+                        <option value="./Images/Grupa.png">Grupa wzajemnej adoracji</option>
+                        <option value="./Images/Kazimierz orange.png">Kazimierz</option>
+                        <option value="./Images/ksiazka.png">Książka była lepsza</option>
+                        <option value="./Images/latajacy.png">Latający Jeleń</option>
+                        <option value="./Images/kwasimierz.png">Kwasimierz</option>
+                        <option value="./Images/Mangol.png">Mangol</option>
+                        <option value="./Images/sherman.png">Mr. Sherman</option>
+                        <option value="./Images/normalne.png">Normalne</option>
+                        <option value="./Images/Pilsiwko.png">Pilsiwko</option>
+                        <option value="./Images/spichlerz.png">Spichlerz</option>
+                        <option value="./Images/stout.png">Stout this out</option>
+                        <option value="./Images/zerro.png">Zerro</option>
+                        <option value="./Images/Zytko.png">Żytko</option>
+                        <option value="./Images/logo.png">Logo</option>
+                        </select>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
